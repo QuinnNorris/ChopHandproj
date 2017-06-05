@@ -2,10 +2,10 @@ package com.quinnnorris.chopinghands.presenter;
 
 import android.os.Handler;
 
-import com.quinnnorris.chopinghands.service.ImplUserService;
-import com.quinnnorris.chopinghands.service.UserLoginCheckListener;
-import com.quinnnorris.chopinghands.service.UserLoginOnLoginListener;
-import com.quinnnorris.chopinghands.service.UserService;
+import com.quinnnorris.chopinghands.service.UserLoign.ImplUserService;
+import com.quinnnorris.chopinghands.service.UserLoign.UserLoginCheckListener;
+import com.quinnnorris.chopinghands.service.UserLoign.UserLoginOnLoginListener;
+import com.quinnnorris.chopinghands.service.UserLoign.UserService;
 import com.quinnnorris.chopinghands.view.ImplUserLoginView;
 
 /**

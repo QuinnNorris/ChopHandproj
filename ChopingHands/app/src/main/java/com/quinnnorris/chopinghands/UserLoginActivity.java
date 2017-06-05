@@ -40,11 +40,11 @@ public class UserLoginActivity extends AppCompatActivity implements ImplUserLogi
     }
 
     private void initViews() {
-        mEtUsername = (EditText) findViewById(R.id.id_et_username);
-        mEtPassword = (EditText) findViewById(R.id.id_et_password);
+        mEtUsername = (EditText) findViewById(R.id.lo_username);
+        mEtPassword = (EditText) findViewById(R.id.lo_password);
 
-        mBtnRegister = (Button) findViewById(R.id.id_btn_register);
-        mBtnLogin = (Button) findViewById(R.id.id_btn_login);
+        mBtnRegister = (Button) findViewById(R.id.lo_register);
+        mBtnLogin = (Button) findViewById(R.id.lo_register);
 
         mUserLoginPresenter.check();
 
@@ -76,7 +76,8 @@ public class UserLoginActivity extends AppCompatActivity implements ImplUserLogi
 
     @Override
     public void toRegisterActivity() {
-
+        Intent intent = new Intent(UserLoginActivity.this, RegisterActivity.class);
+        startActivity(intent);
     }
 
     @Override

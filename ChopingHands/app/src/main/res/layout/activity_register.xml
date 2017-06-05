@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.quinnnorris.chopinghands.RegisterActivity">
+
+    <Button
+        android:text="SEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/re_send"
+        android:height="13dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/re_proving"
+        android:hint="p r o v i n g"
+        android:textAlignment="center"
+        android:height="50dp"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignBottom="@+id/re_send"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:id="@+id/re_phone"
+        android:layout_alignLeft="@+id/re_proving"
+        android:layout_alignStart="@+id/re_proving"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="P H O N E"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/re_phone"
+        android:layout_alignLeft="@+id/re_phone"
+        android:layout_alignStart="@+id/re_phone"
+        android:layout_marginTop="30dp"
+        android:id="@+id/re_password"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="PASS WORD"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="SIGN UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_proving"
+        android:layout_alignLeft="@+id/re_proving"
+        android:layout_alignStart="@+id/re_proving"
+        android:layout_marginTop="44dp"
+        android:id="@+id/re_register"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
